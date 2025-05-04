@@ -1,0 +1,51 @@
+header
+{
+   display:flex; 
+   padding: 0px 100px;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(198, 198, 218);
+}
+nav ul{
+    display: flex;
+    align-items:right;
+    list-style:none;
+    gap: 20px;
+}
+nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  #banner{
+    display: flex;
+    justify-content: space-between;
+   gap: 20px;
+   padding: 100px 0px;
+}
+#about{
+  display: flex;
+    justify-content: space-between;
+   gap: 20px;
+   padding: 100px 0px;
+
+}
+
+#skills{
+  display: flex;
+    justify-content: start;
+   gap: 20px;
+   padding: 100px 0px;
+
+}
+.image{
+  border-radius: 50%;
+} 
+body{
+  background-color: aqua;
+}
+
+  
+
+ 
